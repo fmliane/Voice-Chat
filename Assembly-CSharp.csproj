@@ -54,7 +54,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ShaderPropAnimator.cs" />
-    <Compile Include="Assets/Scripts/ChatAudioInitializer.cs" />
+    <Compile Include="Assets/Scripts/VoiceChat/ChatAudioInitializer.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/SkewTextExample.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/WarpTextExample.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/SimpleScript.cs" />
@@ -87,13 +87,13 @@
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextSelector_B.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/EnvMapAnimator.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_UiFrameRateCounter.cs" />
-    <Compile Include="Assets/Scripts/ChatAudioChannelConfig.cs" />
+    <Compile Include="Assets/Scripts/VoiceChat/ChatAudioChannelConfig.cs" />
     <Compile Include="Assets/AgoraEngine/Scripts/AgoraGamingSDK/rawData/AudioRawDataManager.cs" />
     <Compile Include="Assets/AgoraEngine/Scripts/AgoraGamingSDK/tools/AgoraLog.cs" />
     <Compile Include="Assets/AgoraEngine/Scripts/AgoraGamingSDK/observer/PacketObserver.cs" />
     <Compile Include="Assets/AgoraEngine/Scripts/AgoraGamingSDK/deviceManager/VideoDeviceManager.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/CameraController.cs" />
-    <Compile Include="Assets/Scripts/VoiceChatHelper.cs" />
+    <Compile Include="Assets/Scripts/VoiceChat/Util/VoiceChatHelper.cs" />
     <Compile Include="Assets/AgoraEngine/Scripts/AgoraGamingSDK/deviceManager/AudioPlaybackDeviceManager.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/DropdownSample.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_PhoneNumberValidator.cs" />
@@ -106,7 +106,7 @@
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexZoom.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ObjectSpin.cs" />
     <Compile Include="Assets/AgoraEngine/Scripts/AgoraGamingSDK/native/IAgoraGamingRtcEngineNative.cs" />
-    <Compile Include="Assets/Scripts/AppConfigScriptableObject.cs" />
+    <Compile Include="Assets/Scripts/VoiceChat/AppConfigScriptableObject.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextInfoDebugTool.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextEventCheck.cs" />

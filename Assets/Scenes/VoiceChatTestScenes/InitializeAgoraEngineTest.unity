@@ -996,10 +996,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 2104281242}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fa54950e51eb14b9fa57a98fc32cbf73, type: 3}
+  m_Script: {fileID: 11500000, guid: 5e2bf1bd0d6544fd1b40aad31c73f837, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  agoraAppConfig: {fileID: 11400000, guid: acf5742ecf9114deead3ae78688bc432, type: 2}
+  appConfig: {fileID: 11400000, guid: 6ccb5e8009d8e469883a7016abb95749, type: 2}
 --- !u!4 &2104281245
 Transform:
   m_ObjectHideFlags: 0
