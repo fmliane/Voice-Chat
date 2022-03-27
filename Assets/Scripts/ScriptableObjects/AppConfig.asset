@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6d51e9b1ac904f26877484cc03f0db9, type: 3}
   m_Name: AppConfig
   m_EditorClassIdentifier: 
-  appId: 
+  appId: bc243b22d60848de9e976fe169cc97ba

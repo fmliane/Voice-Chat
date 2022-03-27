@@ -762,7 +762,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 885da02acbd674188a0de5ffc1e6d921, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  token: 
+  token: 006bc243b22d60848de9e976fe169cc97baIACf22i/EzX68Q+i5H2sj6UI3nD9YKxixU6+26JvbSP43kukp2wAAAAAEAAJmhJvzUpBYgEAAQDNSkFi
   roomName: Hub Channel
 --- !u!4 &1120623187
 Transform:
