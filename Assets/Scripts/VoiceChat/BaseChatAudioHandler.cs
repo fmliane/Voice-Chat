@@ -58,7 +58,7 @@ namespace VoiceChat
 
         public virtual void Update()
         {
-            //todo [Li] add mic request permission here.
+            PermissionRequestHelper.RequestMicrophonePermission();
         }
 
         public virtual void OnDestroy()

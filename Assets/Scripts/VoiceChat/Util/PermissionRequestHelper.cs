@@ -1,18 +1,20 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+#if UNITY_ANDROID
+using UnityEngine.Android;
+#endif
 
-public class PermissionRequestHelper : MonoBehaviour
+namespace VoiceChat.Util
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+	public class PermissionRequestHelper
+	{
+		public static void RequestMicrophonePermission()
+		{
+#if (UNITY_2018_3_OR_NEWER && UNITY_ANDROID)
+			if (!Permission.HasUserAuthorizedPermission(Permission.Microphone))
+			{
+				Permission.RequestUserPermission(Permission.Microphone);
+			}
+#endif
+		}
+	}
 }
