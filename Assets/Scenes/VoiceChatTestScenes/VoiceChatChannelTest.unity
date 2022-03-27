@@ -149,7 +149,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 232149278}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2beaa411350c1470f8b23d5be8182799, type: 3}
+  m_Script: {fileID: 11500000, guid: 3112f7942c22e433e8bfb3509372aed1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!4 &232149280
@@ -759,11 +759,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1120623185}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 56546c17e7c034adcb72bccb52fa1ffc, type: 3}
+  m_Script: {fileID: 11500000, guid: 885da02acbd674188a0de5ffc1e6d921, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  token: 0061c052902642f44fb856fea55a0277d20IAB4ywKt2fZICZcoeQqbKQNTWaKE+sY0fgrvNZ7kO9Cz2ww8ge0AAAAAEACjt5mRuGYgYgEAAQC4ZiBi
-  roomName: hubchannel1
+  token: 
+  roomName: Hub Channel
 --- !u!4 &1120623187
 Transform:
   m_ObjectHideFlags: 0
@@ -938,7 +938,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1894471574}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 274e843f36eed4085839e22f3010061f, type: 3}
+  m_Script: {fileID: 11500000, guid: 746efe7ff43d44788a7c737b8af38881, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!4 &1894471576
