@@ -20,10 +20,9 @@ namespace VoiceChat
         }
 
         /// <summary>
-        /// Creates Hub Channel if initialized first time, remote player automatically joins channel if channel exist
+        /// Creates new channel for player after initializing engine.
         /// <param name="channelName"> has a temporary value.</param>
         /// <param name="channelKey"> generated token in agora console using appid.</param>
-        /// The parameters should come from Quantum Client and will be set upon entering the Bootstrap.scene. 
         /// </summary>
         public virtual void JoinVoiceChannel()
         {
@@ -55,6 +54,11 @@ namespace VoiceChat
         public virtual void OnUserJoined(uint uID, int elapsed)
         {
             Debug.Log("Player UID " + uID + "  has joined the Channel.");
+        }
+
+        public virtual void Update()
+        {
+            //todo [Li] add mic request permission here.
         }
 
         public virtual void OnDestroy()
