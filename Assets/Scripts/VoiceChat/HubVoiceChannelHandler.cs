@@ -1,18 +1,19 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class HubVoiceChannelHandler : MonoBehaviour
+namespace VoiceChat.Hub
 {
-    // Start is called before the first frame update
-    void Start()
+    public class HubVoiceChannelHandler : BaseChatAudioHandler
     {
-        
-    }
+        public override void JoinVoiceChannel()
+        {
+            Debug.Log("Joined Voice Hub Channel.");
+            base.JoinVoiceChannel();
+        }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        public override void LeaveVoiceChannel()
+        {
+            Debug.Log("Leave Voice Hub Channel.");
+            base.LeaveVoiceChannel();
+        }
     }
 }

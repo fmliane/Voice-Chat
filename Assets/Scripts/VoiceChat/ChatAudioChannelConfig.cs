@@ -1,18 +1,16 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class ChatAudioChannelConfig : MonoBehaviour
+namespace VoiceChat.Util
 {
-    // Start is called before the first frame update
-    void Start()
+    public class ChatAudioChannelConfig : MonoBehaviour
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        public void SetVoiceChannelAudioConfig()
+        {
+            //Will allow switching loudspeaker to bluetooth earbuds
+            VoiceChatHelper.AllowAudioVolumeIndication(200, 4, true);
+            VoiceChatHelper.PlayAudioOnSpeakerphone(true);
+            // Taken from: https://docs.agora.io/en/Voice/faq/no_music_Unity_objects
+            VoiceChatHelper.GetRTCEngine().SetParameters("{\"che.audio.keep.audiosession\":true}");
+        }
     }
 }

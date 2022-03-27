@@ -6,13 +6,13 @@ namespace VoiceChat.Group
     {
         public override void JoinVoiceChannel()
         {
-            Debug.Log("Joined Voice Hub Channel.");
+            Debug.Log("Joined Voice Group Channel.");
             base.JoinVoiceChannel();
         }
 
         public override void LeaveVoiceChannel()
         {
-            Debug.Log("Leave Voice Hub Channel.");
+            Debug.Log("Leave Voice Group Channel.");
             base.LeaveVoiceChannel();
         }
     }

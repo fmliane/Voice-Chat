@@ -36,7 +36,6 @@ namespace VoiceChat.Util
             Engine.LeaveChannel();
         }
 
-
         /// <summary>
         /// Joins a channel with unique id and subscribes to voice stream. 
         /// <param name="channelName"> a string value is passed to reference as the channelName.</param>
@@ -46,6 +45,16 @@ namespace VoiceChat.Util
         public static void PlayerJoinChannel(string channelName, string info, uint uid)
         {
             Engine.JoinChannel(channelName, info, uid);
+        }
+
+        public static void AllowAudioVolumeIndication(int interval, int smooth, bool isTrue)
+        {
+            Engine.EnableAudioVolumeIndication(interval, smooth, isTrue);
+        }
+
+        public static void PlayAudioOnSpeakerphone(bool isTrue)
+        {
+            Engine.SetDefaultAudioRouteToSpeakerphone(isTrue);
         }
     }
 }
