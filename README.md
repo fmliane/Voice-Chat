@@ -10,3 +10,11 @@ But you can use this as a reference in applying voice coms in your app. Adding s
 MacbookAir
 Github (fork)
 Unity3D 2020.3.26f1 (C#)
+
+
+### Errors to be expected
+
+Code error -7 
+- Unload active engine
+- Destroy Active Engine button will do the work.
+
