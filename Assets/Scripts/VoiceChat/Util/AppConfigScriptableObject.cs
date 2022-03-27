@@ -6,7 +6,7 @@ namespace VoiceChat.Util
     public class AppConfigScriptableObject : ScriptableObject
     {
         [SerializeField] private string appId;
-
+            
         public string AppId => appId;
     }
 }

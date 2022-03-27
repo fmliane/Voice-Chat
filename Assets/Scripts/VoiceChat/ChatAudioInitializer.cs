@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using VoiceChat.Util;
 
-namespace VoiceChat.Initializer
+namespace VoiceChat
 {
     public class ChatAudioInitializer : MonoBehaviour
     {
