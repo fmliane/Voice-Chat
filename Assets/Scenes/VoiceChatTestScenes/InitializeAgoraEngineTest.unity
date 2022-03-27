@@ -921,7 +921,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2104281243}
-        m_TargetAssemblyTypeName: Kumu.Tala.Voice.ChatAudioInitializer, Assembly-CSharp
+        m_TargetAssemblyTypeName: VoiceChat.Initializer.ChatAudioInitializer, Assembly-CSharp
         m_MethodName: ReinitializeEngine
         m_Mode: 1
         m_Arguments:
@@ -1098,7 +1098,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2104281243}
-        m_TargetAssemblyTypeName: Kumu.Tala.Voice.ChatAudioInitializer, Assembly-CSharp
+        m_TargetAssemblyTypeName: VoiceChat.Initializer.ChatAudioInitializer, Assembly-CSharp
         m_MethodName: LoadHudScene
         m_Mode: 1
         m_Arguments:
