@@ -8,6 +8,7 @@ namespace VoiceChat
         //Placeholder variables
         //For testing purposes only
         //todo[Li] Add this in a separate scriptableObject and find a way to generate tokens from agora console
+        //todo[Li] Should create method for handling generated token
         [SerializeField] private string token = "";
         [SerializeField] private string roomName = "";
 
@@ -54,6 +55,18 @@ namespace VoiceChat
         public virtual void OnUserJoined(uint uID, int elapsed)
         {
             Debug.Log("Player UID " + uID + "  has joined the Channel.");
+        }
+
+        public virtual void OnDestroy()
+        {
+            if (VoiceChatHelper.Engine != null)
+            {
+                VoiceChatHelper.DestroyActiveEngine();
+            }
+
+            //Will return as error if there are no remote players in the channel
+            VoiceChatHelper.GetRTCEngine().OnJoinChannelSuccess -= OnJoinChannelSuccessHandler;
+            VoiceChatHelper.GetRTCEngine().OnUserJoined -= OnUserJoined;
         }
     }
 }
