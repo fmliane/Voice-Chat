@@ -1,18 +1,29 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using VoiceChat.Util;
 
-public class BaseChatAudioHandler : MonoBehaviour
+namespace VoiceChat
 {
-    // Start is called before the first frame update
-    void Start()
+    public abstract class BaseChatAudioHandler : MonoBehaviour, IVoiceChannelHandler
     {
-        
-    }
+        public virtual void VoiceChannelCallback()
+        {
+            Debug.Log("Engine initialized and ready.");
+        }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        public virtual void JoinVoiceChannel()
+        {
+            if (VoiceChatHelper.Engine == null)
+            {
+                return;
+            }
+        }
+
+        public virtual void LeaveVoiceChannel()
+        {
+            if (VoiceChatHelper.Engine == null)
+            {
+                return;
+            }
+        }
     }
 }
